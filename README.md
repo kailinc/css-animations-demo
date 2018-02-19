@@ -27,11 +27,89 @@ Example
 
 ## Syntax of Animation Property
 
--  animation property is like the settings of the animation
--  you define how long you want the animation to take, delays, times the animation will run, and timing of the animation
+-  Animation property is like the settings of the animation
+-  You define how long you want the animation to take, delays, times the animation will run, and timing of the animation
 
-Synatx
+Sugar Synatx
 ```css
-animation: duraction  timing-function  delay  iteration-count  direction  fill-mode  play-state  name;
-animation: 3s ease-in 1s 2 reverse both paused slidein;
+.syntax {
+  animation: duraction  timing-function  delay  iteration-count  direction  fill-mode  play-state  name;
+}
+
+.example {
+  animation: 3s ease-in 1s 2 reverse both paused name;
+}
 ```
+
+Long Gross Syntax
+```css
+.grossLongSyntax {
+  animation-name: name;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function:ease;
+  animation-iteration-count: 2;
+  animation-fill-mode: backwards;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+```
+
+### Important Note
+
+-   The order of the items in animation is not imporant
+-   Only the order of timing is. Duration must be infront of delay
+-   You don't need to fill in all the options for animation
+
+## Keyframes
+
+-  This is where you define if you want something to change colors, get bigger,
+   move, or do some crazy flips. You can play around with all the css properties
+   like color, size, height, width, margin, padding, position.
+
+### Synatx of Keyframes
+
+- There are two ways to do it. You can use from and to, or use percents. If your animation
+  is simple, you should use from and to. If you need something more advanced you should
+  use percents.
+
+Synatx of From and To
+```css
+@keyframes animationName {
+  from { cssProperties: option; },  /* Start of the animation */
+  to { cssProperties: option; }     /* End of the animation */
+}
+```
+
+Example
+```css
+@keyframes new {
+  from { transform:  scale(0); }
+  to { transform: scale(1); }
+}
+```
+### Important Note
+
+- You can add as many properties are you want in from and to.
+
+Synatx of %
+```css
+@keyframes animationName {
+  0% { cssProperties: option; },  /* Start of the animation */
+  50% { cssProperties: option; }   /* Half of the animation */
+  100% { cssProperties: option; }     /* End of the animation */
+}
+```
+
+Example
+```css
+@keyframes upgraded {
+  0% { transform: scale(1.4) }
+  50% { transform: scale(0.7) }
+  100% { transform: scale(1) }
+}
+```
+
+# Resources
+1. [W3Schools](https://www.w3schools.com/)
+2. [CSS-Tricks](https://css-tricks.com/css-animation-tricks/)
