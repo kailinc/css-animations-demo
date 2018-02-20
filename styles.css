@@ -103,3 +103,23 @@ h1 {
 span {
   font-weight: bold;
 }
+
+.spinner-1 {
+  background: linear-gradient(red, yellow);
+}
+
+.spinner-2 {
+  background: linear-gradient(#50c9c3, #96deda);
+}
+
+.spinner-3 {
+  background: linear-gradient(#dce35b, #45b649);
+}
+
+.spinner-4 {
+  background: linear-gradient(#ff00cc, #333399);
+}
+
+.spinner-5 {
+  background: linear-gradient(#E5008D, #E5008D);
+}
