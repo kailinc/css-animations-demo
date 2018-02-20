@@ -94,3 +94,12 @@ h1 {
 .section h3 {
   color: black;
 }
+
+.info p {
+  padding: 0px;
+  margin:0px;
+}
+
+span {
+  font-weight: bold;
+}
