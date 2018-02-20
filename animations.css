@@ -9,20 +9,41 @@
   100% { transform: scale(1) }
 }
 
-.mario {
+/* .mario {
   animation: drive 5s 0.3s ease-in infinite forwards;
-}
+} */
 
-.luigi {
+/* .luigi {
   animation: drive 2s 0.3s ease-in infinite forwards;
-}
+} */
 
-@keyframes drive{
+/* @keyframes drive{
   from{ transform: translateX(0px) }
   to{ transform: translateX(1300px) }
+} */
+
+/* WRITE YOUR ANIMATIONS HERE*/
+
+.spinner-1 {
+
 }
 
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.spinner-2 {
+
+}
+
+.spinner-3 {
+
+}
+
+.spinner-4 {
+
+}
+
+.spinner-5 {
+
+}
+
+.spinner-6 {
+
 }
