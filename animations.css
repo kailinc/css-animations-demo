@@ -10,36 +10,67 @@
 }
 
 .mario {
+  animation: drive 5s 0.3s ease-in infinite forwards;
 }
 
 .luigi {
+  animation: drive 2s 0.3s ease-in infinite forwards;
 }
 
- @keyframes drive{
+@keyframes drive{
+  from{ transform: translateX(0px) }
+  to{ transform: translateX(1300px) }
 }
 
 /* WRITE YOUR ANIMATIONS HERE*/
 
 .spinner-1 {
+  animation: bounce 1s normal infinite forwards;
+}
 
+@keyframes bounce {
+  0% { transform: translateY(0px)}
+  50% { transform: translateY(-100px)}
+  100% { transform: translateY(0px)}
 }
 
 .spinner-2 {
+  animation: grow 1s normal infinite forwards;
+}
 
+@keyframes grow {
+  from{ transform: scale(1) }
+  to{ transform: scale(2) }
 }
 
 .spinner-3 {
+  animation: changeColors 3s ease-in infinite forwards;
+}
 
+@keyframes changeColors {
+  0% { background: red }
+  50% {background: blue }
+  100% { background: purple }
 }
 
 .spinner-4 {
+  animation: drunkWalk 2s ease-in infinite forwards;
+}
 
+@keyframes drunkWalk {
+  0% {transform: translateX(0px) rotateY(0deg)}
+  25% {transform: translateX(-200px) rotateY(90deg)}
+  50% {transform: translateX(0px) rotateY(180deg)}
+  75% {transform: translateX(200px) rotateY(270deg)}
+  100% {transform: translateX(0px) rotateY(360deg)}
 }
 
 .spinner-5 {
-
+  animation: disappear 1s ease-in infinite forwards;
 }
 
-.spinner-6 {
-
+@keyframes disappear{
+  0% { opacity: 1 }
+  50% { opacity: 0 }
+  100% { opacity: 1 }
 }
