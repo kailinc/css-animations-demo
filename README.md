@@ -1,5 +1,7 @@
 # CSS Animations
 
+![border](https://gfycat.com/AthleticAccomplishedBoilweevil.gif)
+
 ## What is CSS Animations?
 
 You can write raw css and change as many CSS properties as you want.
