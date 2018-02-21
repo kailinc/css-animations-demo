@@ -1,6 +1,6 @@
 # CSS Animations
 
-![border](https://gfycat.com/AthleticAccomplishedBoilweevil.gif)
+![border](https://gfycat.com/AthleticAccomplishedBoilweevil)
 
 ## What is CSS Animations?
 
