@@ -20,7 +20,7 @@
 @keyframes drive{
   from{ transform: translateX(0px) }
   to{ transform: translateX(1300px) }
-}
+}g
 
 /* WRITE YOUR ANIMATIONS HERE*/
 
