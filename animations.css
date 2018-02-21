@@ -9,18 +9,14 @@
   100% { transform: scale(1) }
 }
 
-/* .mario {
-  animation: drive 5s 0.3s ease-in infinite forwards;
-} */
+.mario {
+}
 
-/* .luigi {
-  animation: drive 2s 0.3s ease-in infinite forwards;
-} */
+.luigi {
+}
 
-/* @keyframes drive{
-  from{ transform: translateX(0px) }
-  to{ transform: translateX(1300px) }
-} */
+ @keyframes drive{
+}
 
 /* WRITE YOUR ANIMATIONS HERE*/
 
