@@ -1,6 +1,10 @@
 # CSS Animations
 
-![border](https://gfycat.com/AthleticAccomplishedBoilweevil)
+![border](https://thumbs.gfycat.com/AthleticAccomplishedBoilweevil-size_restricted.gif)
+
+![sleepyBird](https://thumbs.gfycat.com/NiceWideeyedDungenesscrab-size_restricted.gif)
+
+![starwars](https://thumbs.gfycat.com/RipeDisguisedAnglerfish-size_restricted.gif)
 
 ## What is CSS Animations?
 
